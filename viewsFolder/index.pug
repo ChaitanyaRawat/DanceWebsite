@@ -1,0 +1,66 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+        ul 
+            div#logo 
+                img(src="/static/img/logo.png")
+                |   CDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact us]
+
+
+
+    section#introSection
+        div   Welcome to Chaitanya's Dance Academy 
+        div.small   Eat Sleep Dance Repeat  
+
+
+
+    section#MissonSection
+        h2 Our Mission    
+        div.card 
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/1.png")
+                div.card-content    
+                    p this is the best dance academy ever
+
+        div.card 
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/2.png")
+                div.card-content    
+                    p this is the best dance academy ever
+        div.card 
+            h3 Expert Teaching   
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/3.png")
+                div.card-content    
+                    p this is the best dance academy ever   
+
+
+
+    section#sponsorsSection
+        h3 Our Sponsors
+        div#sponsors 
+            img(src="/static/img/sponsor1.png", alt="Microsoft" , Class="spImage")
+            img(src="/static/img/sponsor2.png", alt="Google" , Class="spImage")
+            img(src="/static/img/sponsor3.png", alt="Netflix" , Class="spImage")
+            img(src="/static/img/sponsor4.png", alt="Amazon" , Class="spImage")
+
+    footer#footer
+        |   Copyright 2024 Chaitanya's Dance Academy | All rights reserved       
+
+    script
+      include ../static/index.js

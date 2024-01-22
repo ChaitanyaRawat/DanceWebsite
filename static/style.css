@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #580303;
+    padding: 13px 14px;
+    font-family: 'Dela Gothic One', sans-serif;
+
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+#navbar li a:hover{
+    color: rgb(255, 255, 0);
+}
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 425px;
+    background: center / cover no-repeat url(/static/bg.jpg);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+}
+
+#introSection div.small{
+    font-size: 50px;
+}
+
+#MissonSection {
+    height: 326px;
+    margin: auto;
+    width: 67%;
+}
+
+#MissonSection h2{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 20px;
+    height: 209px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 15px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content {
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+
+#sponsorsSection{
+    height: 200px;
+    background-color: rgb(250, 205, 109);
+}
+
+
+#sponsorsSection h3{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+
+#sponsors {
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 60%;
+    margin: 20px;
+}
+#footer{
+   display: flex;
+   color: white;
+   background-color: black;
+   height: 60px;
+   justify-content: center;
+   align-items: center;
+   font-size: 15px;
+}
